@@ -2,12 +2,18 @@
   "name": "databaseconection",
   "version": "1.0.0",
   "description": "I am conecte database",
-  "type": "module",
+  "type":"module",
   "main": "index.js",
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.4",
+    "pretier": "^0.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
 }
